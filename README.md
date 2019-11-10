@@ -1,0 +1,1 @@
+![](https://github.com/martiner/actions-test/workflows/build/badge.svg)
