@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Pushbullet Notification
-        uses: martiner/action-pushbullet@fix
+        uses: martiner/action-pushbullet@master
         env:
           PB_TOKEN: ${{ secrets.PUSHBULLET_TOKEN }}
           PB_TITLE: Test title
