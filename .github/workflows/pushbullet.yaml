@@ -1,0 +1,17 @@
+name: pushbullet
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Pushbullet Notification
+        uses: martiner/action-pushbullet@master
+        env:
+          PB_TOKEN: ${{ secrets.PUSHBULLET_TOKEN }}
+          PB_TITLE: Test title
+          PB_TEXT: Test text
+
